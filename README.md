@@ -64,7 +64,7 @@ A submissão da solução deve ser feita via pull request.
 O conceito nesta atividade é definido pela quantidade de testes passando:
 
 | # Testes passando | Conceito |
-|------------------------------|
+| :---------------: | :------- |
 |       < 4         |    D     |
 |         4         |    C     |
 |         6         |    C+    |
