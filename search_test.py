@@ -56,7 +56,7 @@ def setup():
 
 
 def build_perfect_tree():
-    '''
+    r'''
     Builds the following tree:
 
                __________0__________
@@ -71,7 +71,7 @@ def build_perfect_tree():
 
 
 def build_unbalanced_tree():
-    '''
+    r'''
     Builds the following tree:
 
       ______________________0______________________
@@ -182,3 +182,10 @@ def test_breadth_first_perfect_tree():
 def test_breadth_first_unbalanced_tree():
     expected = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
     apply_test(search.breadth_first, expected, False, False)
+
+
+if __name__ == "__main__":
+    import sys
+    import pytest
+
+    pytest.main([sys.argv[0]])

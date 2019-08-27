@@ -1,18 +1,18 @@
 '''
 Rubric:
-    | # Passing |       |
-    | functions | Grade |
-    |-------------------|
-    |   < 2     |  D    |
-    |     2     |  C    |
-    |     3     |  C+   |
-    |     4     |  B    |
-    |     5     |  B+   |
-    |     6     |  A    |
-    |     7     |  A+   |
+    | # Passing  |       |
+    |   tests    | Grade |
+    |--------------------|
+    |   < 4      |  D    |
+    |     4      |  C    |
+    |     6      |  C+   |
+    |     8      |  B    |
+    |     10     |  B+   |
+    |     12     |  A    |
+    |     14     |  A+   |
 '''
 
-def pre_order_recursive(root, order=None):
+def pre_order_recursive(root):
     return []
 
 
@@ -20,7 +20,7 @@ def pre_order_iterative(root):
     return []
 
 
-def in_order_recursive(root, order=None):
+def in_order_recursive(root):
     return []
 
 
@@ -28,7 +28,7 @@ def in_order_iterative(root):
     return []
 
 
-def post_order_recursive(root, order=None):
+def post_order_recursive(root):
     return []
 
 
