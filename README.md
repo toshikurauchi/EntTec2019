@@ -54,6 +54,14 @@ função de teste define se a sua implementação deve ser recursiva ou iterativ
 Por exemplo, no primeiro teste é esperada uma solução recursiva que percorra a
 árvore perfeita na seguinte ordem: `[0, 1, 3, 7, 8, 4, 9, 10, 2, 5, 11, 12, 6, 13, 14]`.
 
+Para executar somente um teste específico utilize o comando:
+
+    $ pytest search_test.py -k NOME_DA_FUNCAO_DE_TESTE
+
+Por exemplo:
+
+    $ pytest search_test.py -k test_post_order_iterative_perfect_tree
+
 ## Como entregar
 
 Submeta somente o seu arquivo [`search.py`](search.py) com as soluções na [página da disciplina](http://ensino.kurauchi.com.br/entrevistas/).
