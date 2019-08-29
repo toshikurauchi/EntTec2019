@@ -56,8 +56,7 @@ Por exemplo, no primeiro teste é esperada uma solução recursiva que percorra 
 
 ## Como entregar
 
-Faça um fork deste repositório e desenvolva a solução em [`search.py`](search.py).
-A submissão da solução deve ser feita via pull request.
+Submeta somente o seu arquivo [`search.py`](search.py) com as soluções na [página da disciplina](http://ensino.kurauchi.com.br/entrevistas/).
 
 ## Rubrica
 
